@@ -219,7 +219,7 @@ export function MarketingWizard({ onClose }: MarketingWizardProps) {
           
           <button
             onClick={onClose}
-            className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300"
+            className="w-full bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300"
           >
             {lang === 'ar' ? 'إغلاق' : 'Close'}
           </button>
@@ -239,7 +239,7 @@ export function MarketingWizard({ onClose }: MarketingWizardProps) {
         <div className="p-6 border-b border-gray-200 dark:border-gray-700">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-r from-sky-500 to-cyan-600 rounded-full flex items-center justify-center">
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
               <div>

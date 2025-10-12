@@ -208,7 +208,7 @@ export function FeatureSelection({
     { id: 'social', name: lang === 'ar' ? 'وسائل التواصل' : 'Social Media', color: 'from-blue-500 to-cyan-500' },
     { id: 'seo', name: lang === 'ar' ? 'محركات البحث' : 'SEO', color: 'from-green-500 to-emerald-500' },
     { id: 'content', name: lang === 'ar' ? 'المحتوى' : 'Content', color: 'from-purple-500 to-violet-500' },
-    { id: 'advertising', name: lang === 'ar' ? 'الإعلانات' : 'Advertising', color: 'from-orange-500 to-red-500' },
+    { id: 'advertising', name: lang === 'ar' ? 'الإعلانات' : 'Advertising', color: 'from-sky-500 to-cyan-500' },
     { id: 'email', name: lang === 'ar' ? 'البريد الإلكتروني' : 'Email', color: 'from-teal-500 to-cyan-500' },
     { id: 'analytics', name: lang === 'ar' ? 'التحليلات' : 'Analytics', color: 'from-indigo-500 to-blue-500' },
     { id: 'influencer', name: lang === 'ar' ? 'المؤثرين' : 'Influencer', color: 'from-pink-500 to-rose-500' },
@@ -378,7 +378,7 @@ export function FeatureSelection({
         <Button
           onClick={onNext}
           size="lg"
-          className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-8 py-3 group"
+          className="bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 text-white px-8 py-3 group"
           data-testid="button-continue-to-contact"
         >
           {lang === 'ar' ? 'متابعة لمعلومات التواصل' : 'Continue to Contact Info'}

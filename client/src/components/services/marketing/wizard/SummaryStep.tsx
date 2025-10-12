@@ -406,7 +406,7 @@ export function SummaryStep({
           onClick={onSubmit}
           size="lg"
           disabled={isSubmitting}
-          className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-8 py-3 group disabled:opacity-50"
+          className="bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 text-white px-8 py-3 group disabled:opacity-50"
           data-testid="button-submit-request"
         >
           {isSubmitting ? (

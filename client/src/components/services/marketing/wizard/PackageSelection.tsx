@@ -281,7 +281,7 @@ export function PackageSelection({ selectedPackage, onSelectPackage, onNext }: P
                   className={cn(
                     "w-full transition-all duration-300",
                     selectedPackage === pkg.id
-                      ? "bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white"
+                      ? "bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 text-white"
                       : "bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700"
                   )}
                   onClick={(e) => {
@@ -311,7 +311,7 @@ export function PackageSelection({ selectedPackage, onSelectPackage, onNext }: P
           onClick={onNext}
           disabled={!selectedPackage}
           size="lg"
-          className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white disabled:opacity-50 disabled:cursor-not-allowed px-8 py-3 group"
+          className="bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 text-white disabled:opacity-50 disabled:cursor-not-allowed px-8 py-3 group"
           data-testid="button-continue-to-features"
         >
           {lang === 'ar' ? 'متابعة للميزات الإضافية' : 'Continue to Additional Features'}

@@ -143,7 +143,7 @@ export function ProcessTimeline({ className }: ProcessTimelineProps) {
         {/* Timeline */}
         <div className="relative">
           {/* Vertical Line */}
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-orange-200 via-red-200 to-pink-200 dark:from-orange-800 dark:via-red-800 dark:to-pink-800 hidden lg:block" />
+          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-sky-200 via-cyan-200 to-blue-200 dark:from-sky-800 dark:via-cyan-800 dark:to-blue-800 hidden lg:block" />
 
           {/* Steps */}
           <div className="space-y-12">
@@ -157,7 +157,7 @@ export function ProcessTimeline({ className }: ProcessTimelineProps) {
                 className="relative"
               >
                 {/* Step Number Circle */}
-                <div className="absolute left-0 lg:left-6 w-8 h-8 lg:w-12 lg:h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center shadow-lg">
+                <div className="absolute left-0 lg:left-6 w-8 h-8 lg:w-12 lg:h-12 bg-gradient-to-r from-sky-500 to-cyan-600 rounded-full flex items-center justify-center shadow-lg">
                   <span className="text-white font-bold text-sm lg:text-base">
                     {step.id}
                   </span>
@@ -230,7 +230,7 @@ export function ProcessTimeline({ className }: ProcessTimelineProps) {
           </div>
 
           <div className="text-center">
-            <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-sky-500 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <Sparkles className="w-8 h-8 text-white" />
             </div>
             <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">95%</div>

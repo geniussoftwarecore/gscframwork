@@ -71,7 +71,7 @@ export function FeatureGrid() {
       descriptionAr: "حملات إعلانية استراتيجية على جوجل وفيسبوك وإنستغرام والمنصات الأخرى",
       category: "Advertising",
       categoryAr: "الإعلانات",
-      color: "from-orange-500 to-red-500"
+      color: "from-sky-500 to-cyan-500"
     },
     {
       icon: Video,
@@ -265,7 +265,7 @@ export function FeatureGrid() {
           
           <a 
             href="#get-started" 
-            className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             data-testid="button-get-started"
           >
             {lang === 'ar' ? 'ابدأ خطتك التسويقية' : 'Start Your Marketing Plan'}
