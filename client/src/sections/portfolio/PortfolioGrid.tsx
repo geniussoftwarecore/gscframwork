@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -486,6 +487,7 @@ function ProjectCard({
               {/* Action Button */}
               <div className="mt-4">
                 <Button
+                  asChild
                   variant="ghost"
                   className={cn(
                     "w-full md:w-auto justify-between text-primary hover:text-white hover:bg-primary transition-all duration-300",
@@ -493,8 +495,10 @@ function ProjectCard({
                   )}
                   data-testid={`view-${project.slug}`}
                 >
-                  <span>{dir === 'rtl' ? 'عرض التفاصيل' : 'View Details'}</span>
-                  <ExternalLink className={cn("w-4 h-4", dir === 'rtl' ? 'mr-2' : 'ml-2')} />
+                  <Link href={`/portfolio/${project.slug}`}>
+                    <span>{dir === 'rtl' ? 'عرض التفاصيل' : 'View Details'}</span>
+                    <ExternalLink className={cn("w-4 h-4", dir === 'rtl' ? 'mr-2' : 'ml-2')} />
+                  </Link>
                 </Button>
               </div>
             </div>
@@ -547,12 +551,15 @@ function ProjectCard({
           {/* Hover Action */}
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <Button
+              asChild
               size="sm"
               className="bg-white text-primary hover:bg-primary hover:text-white transition-colors duration-300 shadow-lg"
               data-testid={`view-${project.slug}`}
             >
-              <ExternalLink className="w-4 h-4 mr-2" />
-              {dir === 'rtl' ? 'عرض المشروع' : 'View Project'}
+              <Link href={`/portfolio/${project.slug}`}>
+                <ExternalLink className="w-4 h-4 mr-2" />
+                {dir === 'rtl' ? 'عرض المشروع' : 'View Project'}
+              </Link>
             </Button>
           </div>
 
@@ -603,14 +610,17 @@ function ProjectCard({
 
           {/* Project Link */}
           <Button
+            asChild
             variant="ghost"
             className={cn(
               "w-full justify-between text-primary hover:text-white hover:bg-primary transition-all duration-300 mt-auto",
               dir === 'rtl' && "flex-row-reverse"
             )}
           >
-            <span>{dir === 'rtl' ? 'عرض التفاصيل' : 'View Details'}</span>
-            <ExternalLink className={cn("w-4 h-4", dir === 'rtl' ? 'mr-2' : 'ml-2')} />
+            <Link href={`/portfolio/${project.slug}`}>
+              <span>{dir === 'rtl' ? 'عرض التفاصيل' : 'View Details'}</span>
+              <ExternalLink className={cn("w-4 h-4", dir === 'rtl' ? 'mr-2' : 'ml-2')} />
+            </Link>
           </Button>
         </div>
       </Card>
