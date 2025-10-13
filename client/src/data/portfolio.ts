@@ -123,25 +123,88 @@ export const portfolioProjects: PortfolioProject[] = [
       }
     ],
     tech: ['React', 'Vue.js', 'Node.js', 'Express', 'PostgreSQL', 'MySQL', 'JWT', 'Bootstrap', 'Tailwind CSS', 'Docker'],
-    coverImage: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=600&fit=crop',
+    coverImage: '/attached_assets/1_1760312799651.jpg',
     gallery: [
       {
         id: '1',
-        url: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=800&fit=crop',
-        alt: 'Complaints dashboard interface',
-        altAr: 'واجهة لوحة تحكم الشكاوى',
+        url: '/attached_assets/1_1760312799651.jpg',
+        alt: 'Splash Screen - Peregrine App',
+        altAr: 'شاشة البداية - تطبيق بيرجرين',
         type: 'image',
-        caption: 'Modern complaints management dashboard',
-        captionAr: 'لوحة تحكم حديثة لإدارة الشكاوى'
+        caption: 'App splash screen with security and protection',
+        captionAr: 'شاشة تحميل التطبيق مع الحماية والأمان'
       },
       {
         id: '2',
-        url: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop',
-        alt: 'Real-time tracking system',
-        altAr: 'نظام التتبع في الوقت الفعلي',
+        url: '/attached_assets/2_1760312799653.jpg',
+        alt: 'Login Screen',
+        altAr: 'شاشة تسجيل الدخول',
         type: 'image',
-        caption: 'Live complaint status tracking',
-        captionAr: 'تتبع حالة الشكاوى مباشرة'
+        caption: 'Secure login with multiple authentication options',
+        captionAr: 'تسجيل دخول آمن مع خيارات مصادقة متعددة'
+      },
+      {
+        id: '3',
+        url: '/attached_assets/3_1760312799654.jpg',
+        alt: 'Main Dashboard',
+        altAr: 'الصفحة الرئيسية',
+        type: 'image',
+        caption: 'User dashboard with quick actions',
+        captionAr: 'لوحة المستخدم مع إجراءات سريعة'
+      },
+      {
+        id: '4',
+        url: '/attached_assets/5_1760312799655.jpg',
+        alt: 'Notifications Screen',
+        altAr: 'شاشة الإشعارات',
+        type: 'image',
+        caption: 'Real-time notifications and updates',
+        captionAr: 'إشعارات وتحديثات فورية'
+      },
+      {
+        id: '5',
+        url: '/attached_assets/6_1760312799656.jpg',
+        alt: 'Customer Support Dashboard',
+        altAr: 'لوحة دعم العملاء',
+        type: 'image',
+        caption: 'Support team dashboard for managing requests',
+        captionAr: 'لوحة فريق الدعم لإدارة الطلبات'
+      },
+      {
+        id: '6',
+        url: '/attached_assets/8_1760312799657.jpg',
+        alt: 'Complaints Tracking',
+        altAr: 'تتبع الطلبات والشكاوى',
+        type: 'image',
+        caption: 'Track and filter complaints in real-time',
+        captionAr: 'تتبع وتصفية الشكاوى في الوقت الفعلي'
+      },
+      {
+        id: '7',
+        url: '/attached_assets/9_1760312799658.jpg',
+        alt: 'Request Details',
+        altAr: 'تفاصيل الطلب',
+        type: 'image',
+        caption: 'Detailed view of complaint information',
+        captionAr: 'عرض تفصيلي لمعلومات الشكوى'
+      },
+      {
+        id: '8',
+        url: '/attached_assets/10_1760312799659.jpg',
+        alt: 'Chat Interface',
+        altAr: 'واجهة المحادثة',
+        type: 'image',
+        caption: 'Chat interface for complaint discussion',
+        captionAr: 'واجهة محادثة لمناقشة الشكوى'
+      },
+      {
+        id: '9',
+        url: '/attached_assets/11_1760312799660.jpg',
+        alt: 'Subscription Inquiry',
+        altAr: 'استفسار عن الاشتراك',
+        type: 'image',
+        caption: 'Customer inquiry about annual subscription',
+        captionAr: 'استفسار العميل عن الاشتراك السنوي'
       }
     ],
     summaryEn: 'A comprehensive digital solution for managing complaints and feedback, serving government institutions, corporations, and service centers with modern, efficient complaint resolution workflows.',

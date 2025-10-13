@@ -22,6 +22,7 @@ import {
 import TechBadge from './tech-badge';
 import KpiPill from './kpi-pill';
 import LightboxViewer from './lightbox-viewer';
+import { IPhoneGallery } from './iphone-mockup';
 import type { PortfolioProject } from '@/data/portfolio';
 
 interface EnhancedProjectDetailHeroProps {
@@ -244,49 +245,70 @@ export default function EnhancedProjectDetailHero({ project }: EnhancedProjectDe
             </motion.div>
 
             {/* Project Image Gallery */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.9 }}
-              className="mb-16"
-            >
-              <Card className="border-2 border-brand-sky-base bg-brand-bg shadow-2xl overflow-hidden">
-                <CardContent className="p-2">
-                  <div className="relative h-96 lg:h-[500px] overflow-hidden rounded-lg bg-gradient-to-br from-brand-sky-light to-brand-sky-base cursor-pointer group"
-                       onClick={() => handleImageClick(0)}>
-                    {project.coverImage && (
-                      <motion.img
-                        src={project.coverImage}
-                        alt={project.titleAr}
-                        className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
-                        whileHover={{ scale: 1.02 }}
-                      />
-                    )}
-                    
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
-                      <motion.div
-                        className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                        whileHover={{ scale: 1.1 }}
-                      >
-                        <div className="bg-white/90 backdrop-blur-sm rounded-full p-4">
-                          <Eye className="w-8 h-8 text-brand-sky-accent" />
-                        </div>
-                      </motion.div>
-                    </div>
-
-                    {/* Gallery Indicator */}
-                    {project.gallery && project.gallery.length > 0 && (
-                      <div className="absolute bottom-4 left-4">
-                        <Badge className="bg-black/70 text-white border-0">
-                          +{project.gallery.length} صور
-                        </Badge>
+            {project.slug === 'complaints-system-peregrine' ? (
+              // iPhone Mockup Gallery for Complaints System
+              <motion.div
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.9 }}
+                className="mb-16"
+              >
+                <div className="text-center mb-8">
+                  <h3 className="text-2xl font-bold text-brand-text-primary mb-2">
+                    معرض الصور - شاشات التطبيق
+                  </h3>
+                  <p className="text-brand-text-muted">
+                    تصميم احترافي لواجهات تطبيق إدارة الشكاوى على iPhone 15 Pro Max
+                  </p>
+                </div>
+                <IPhoneGallery images={project.gallery || []} />
+              </motion.div>
+            ) : (
+              // Standard Gallery for Other Projects
+              <motion.div
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.9 }}
+                className="mb-16"
+              >
+                <Card className="border-2 border-brand-sky-base bg-brand-bg shadow-2xl overflow-hidden">
+                  <CardContent className="p-2">
+                    <div className="relative h-96 lg:h-[500px] overflow-hidden rounded-lg bg-gradient-to-br from-brand-sky-light to-brand-sky-base cursor-pointer group"
+                         onClick={() => handleImageClick(0)}>
+                      {project.coverImage && (
+                        <motion.img
+                          src={project.coverImage}
+                          alt={project.titleAr}
+                          className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
+                          whileHover={{ scale: 1.02 }}
+                        />
+                      )}
+                      
+                      {/* Overlay */}
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
+                        <motion.div
+                          className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                          whileHover={{ scale: 1.1 }}
+                        >
+                          <div className="bg-white/90 backdrop-blur-sm rounded-full p-4">
+                            <Eye className="w-8 h-8 text-brand-sky-accent" />
+                          </div>
+                        </motion.div>
                       </div>
-                    )}
-                  </div>
-                </CardContent>
-              </Card>
-            </motion.div>
+
+                      {/* Gallery Indicator */}
+                      {project.gallery && project.gallery.length > 0 && (
+                        <div className="absolute bottom-4 left-4">
+                          <Badge className="bg-black/70 text-white border-0">
+                            +{project.gallery.length} صور
+                          </Badge>
+                        </div>
+                      )}
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            )}
 
             {/* Quick Info Cards */}
             <motion.div

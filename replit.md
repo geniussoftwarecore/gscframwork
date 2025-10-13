@@ -73,6 +73,35 @@ See `.env.example` for complete configuration. Key variables:
 
 ## Recent Changes
 
+### 📱 **iPhone 15 Pro Max Mockup Gallery (October 13, 2025)**
+- ✅ **Professional Mockup Component**: Created iPhone 15 Pro Max mockup for app screenshots
+  - Realistic device frame with notch, buttons, and shadow effects
+  - Responsive design with proper sizing and proportions
+  - Smooth animations on scroll with Framer Motion
+  - Professional gradient overlays and reflection effects
+- ✅ **Complaints System Project Updated**:
+  - **Project renamed**: من "تطبيق الشَّكَهَة" إلى "تطبيق إدارة الشكاوى وخدمة العملاء"
+  - **9 app screenshots** added in iPhone mockup format (from splash to chat interface)
+  - **Gallery Section**: Professional grid layout (3 columns on desktop, responsive)
+  - **Custom Display**: Mockup gallery only for complaints-system-peregrine project
+  - **Other Projects**: Standard gallery view maintained (no changes to other projects)
+- ✅ **Screenshots Included**:
+  1. Splash screen with app logo and security badge
+  2. Login screen with authentication options
+  3. Main dashboard with quick actions
+  4. Notifications screen
+  5. Customer support dashboard
+  6. Complaints tracking interface
+  7. Request details view
+  8. Chat interface for complaint discussion
+  9. Subscription inquiry screen
+- ✅ **Technical Implementation**:
+  - Created reusable `IPhoneMockup` and `IPhoneGallery` components
+  - Conditional rendering based on project slug
+  - Professional typography and spacing
+  - Images stored in `/attached_assets/` directory
+  - Full bilingual support (Arabic/English captions)
+
 ### 🎨 **Portfolio Page Professional Enhancement (October 10, 2025)**
 - ✅ **Enhanced PageHeaderPortfolio**: Added interactive statistics dashboard
   - 150+ completed projects with animated counter
