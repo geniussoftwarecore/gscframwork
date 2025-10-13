@@ -72,8 +72,8 @@ export interface GalleryItem {
 export const portfolioProjects: PortfolioProject[] = [
   {
     slug: 'complaints-system-peregrine',
-    title: 'Peregrine Complaints Management System',
-    titleAr: 'تطبيق الشَّكَهَة (نظام إدارة الشكاوى)',
+    title: 'Complaints and Customer Service Management System',
+    titleAr: 'تطبيق إدارة الشكاوى وخدمة العملاء',
     client: 'Government & Corporate Institutions',
     clientAr: 'المؤسسات الحكومية والشركات',
     sector: 'Government / Customer Service',
