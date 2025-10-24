@@ -253,14 +253,6 @@ export default function EnhancedProjectDetailHero({ project }: EnhancedProjectDe
                 transition={{ duration: 0.8, delay: 0.9 }}
                 className="mb-16"
               >
-                <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold text-brand-text-primary mb-2">
-                    معرض الصور - شاشات التطبيق
-                  </h3>
-                  <p className="text-brand-text-muted">
-                    تصميم احترافي لواجهات تطبيق إدارة الشكاوى على iPhone 15 Pro Max
-                  </p>
-                </div>
                 <IPhoneGallery images={project.gallery || []} />
               </motion.div>
             ) : (
