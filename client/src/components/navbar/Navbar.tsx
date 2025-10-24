@@ -86,17 +86,6 @@ export default function Navbar() {
                   transition: { duration: 0.6, ease: "easeInOut" }
                 }}
               >
-                {/* Animated Background Glow */}
-                <motion.div
-                  className="absolute inset-0 bg-sky-400/20 rounded-full blur-md -z-10"
-                  initial={{ scale: 0, opacity: 0 }}
-                  whileHover={{ 
-                    scale: 1.5, 
-                    opacity: 1,
-                    transition: { duration: 0.3 }
-                  }}
-                />
-                
                 {/* Logo with Bounce Effect */}
                 <motion.img 
                   src="/brand/logo-gsc-48.png" 
