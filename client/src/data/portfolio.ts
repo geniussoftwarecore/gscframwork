@@ -123,11 +123,11 @@ export const portfolioProjects: PortfolioProject[] = [
       }
     ],
     tech: ['React', 'Vue.js', 'Node.js', 'Express', 'PostgreSQL', 'MySQL', 'JWT', 'Bootstrap', 'Tailwind CSS', 'Docker'],
-    coverImage: '/attached_assets/1_1760312799651.jpg',
+    coverImage: '/attached_assets/1_1761268009936.jpg',
     gallery: [
       {
         id: '1',
-        url: '/attached_assets/1_1760312799651.jpg',
+        url: '/attached_assets/1_1761268009936.jpg',
         alt: 'Splash Screen - Peregrine App',
         altAr: 'شاشة البداية - تطبيق بيرجرين',
         type: 'image',
@@ -136,7 +136,7 @@ export const portfolioProjects: PortfolioProject[] = [
       },
       {
         id: '2',
-        url: '/attached_assets/2_1760312799653.jpg',
+        url: '/attached_assets/2_1761268009938.jpg',
         alt: 'Login Screen',
         altAr: 'شاشة تسجيل الدخول',
         type: 'image',
