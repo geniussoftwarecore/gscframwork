@@ -123,11 +123,11 @@ export const portfolioProjects: PortfolioProject[] = [
       }
     ],
     tech: ['React', 'Vue.js', 'Node.js', 'Express', 'PostgreSQL', 'MySQL', 'JWT', 'Bootstrap', 'Tailwind CSS', 'Docker'],
-    coverImage: '/attached_assets/1_1761268791316.jpg',
+    coverImage: '/attached_assets/1_1761269091844.jpg',
     gallery: [
       {
         id: '1',
-        url: '/attached_assets/1_1761268791316.jpg',
+        url: '/attached_assets/1_1761269091844.jpg',
         alt: 'Splash Screen - Peregrine App',
         altAr: 'شاشة البداية - تطبيق بيرجرين',
         type: 'image',
@@ -136,7 +136,7 @@ export const portfolioProjects: PortfolioProject[] = [
       },
       {
         id: '2',
-        url: '/attached_assets/2_1761268791317.jpg',
+        url: '/attached_assets/2_1761269091845.jpg',
         alt: 'Login Screen',
         altAr: 'شاشة تسجيل الدخول',
         type: 'image',
@@ -145,66 +145,30 @@ export const portfolioProjects: PortfolioProject[] = [
       },
       {
         id: '3',
-        url: '/attached_assets/3_1760312799654.jpg',
+        url: '/attached_assets/3 - Copy_1761269091846.jpg',
         alt: 'Main Dashboard',
         altAr: 'الصفحة الرئيسية',
         type: 'image',
-        caption: 'User dashboard with quick actions',
-        captionAr: 'لوحة المستخدم مع إجراءات سريعة'
+        caption: 'User dashboard with quick actions and complaint submission',
+        captionAr: 'لوحة المستخدم مع إجراءات سريعة وتقديم الشكاوى'
       },
       {
         id: '4',
-        url: '/attached_assets/5_1760312799655.jpg',
+        url: '/attached_assets/5_1761269091847.jpg',
         alt: 'Notifications Screen',
         altAr: 'شاشة الإشعارات',
         type: 'image',
-        caption: 'Real-time notifications and updates',
-        captionAr: 'إشعارات وتحديثات فورية'
+        caption: 'Real-time notifications with complaint status updates',
+        captionAr: 'إشعارات فورية مع تحديثات حالة الشكاوى'
       },
       {
         id: '5',
-        url: '/attached_assets/6_1760312799656.jpg',
-        alt: 'Customer Support Dashboard',
-        altAr: 'لوحة دعم العملاء',
+        url: '/attached_assets/11 - Copy_1761269091848.jpg',
+        alt: 'Request Details and Chat',
+        altAr: 'تفاصيل الطلب والمحادثة',
         type: 'image',
-        caption: 'Support team dashboard for managing requests',
-        captionAr: 'لوحة فريق الدعم لإدارة الطلبات'
-      },
-      {
-        id: '6',
-        url: '/attached_assets/8_1760312799657.jpg',
-        alt: 'Complaints Tracking',
-        altAr: 'تتبع الطلبات والشكاوى',
-        type: 'image',
-        caption: 'Track and filter complaints in real-time',
-        captionAr: 'تتبع وتصفية الشكاوى في الوقت الفعلي'
-      },
-      {
-        id: '7',
-        url: '/attached_assets/9_1760312799658.jpg',
-        alt: 'Request Details',
-        altAr: 'تفاصيل الطلب',
-        type: 'image',
-        caption: 'Detailed view of complaint information',
-        captionAr: 'عرض تفصيلي لمعلومات الشكوى'
-      },
-      {
-        id: '8',
-        url: '/attached_assets/10_1760312799659.jpg',
-        alt: 'Chat Interface',
-        altAr: 'واجهة المحادثة',
-        type: 'image',
-        caption: 'Chat interface for complaint discussion',
-        captionAr: 'واجهة محادثة لمناقشة الشكوى'
-      },
-      {
-        id: '9',
-        url: '/attached_assets/11_1760312799660.jpg',
-        alt: 'Subscription Inquiry',
-        altAr: 'استفسار عن الاشتراك',
-        type: 'image',
-        caption: 'Customer inquiry about annual subscription',
-        captionAr: 'استفسار العميل عن الاشتراك السنوي'
+        caption: 'Detailed complaint view with chat interface',
+        captionAr: 'عرض تفصيلي للشكوى مع واجهة المحادثة'
       }
     ],
     summaryEn: 'A comprehensive digital solution for managing complaints and feedback, serving government institutions, corporations, and service centers with modern, efficient complaint resolution workflows.',
