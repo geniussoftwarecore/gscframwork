@@ -73,17 +73,15 @@ interface IPhoneGalleryProps {
 
 export function IPhoneGallery({ images }: IPhoneGalleryProps) {
   return (
-    <div className="w-full py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 max-w-7xl mx-auto px-4">
-        {images.map((image, index) => (
-          <IPhoneMockup
-            key={index}
-            image={image.url}
-            alt={image.altAr || image.alt}
-            index={index}
-          />
-        ))}
-      </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 max-w-7xl mx-auto px-4">
+      {images.map((image, index) => (
+        <IPhoneMockup
+          key={index}
+          image={image.url}
+          alt={image.altAr || image.alt}
+          index={index}
+        />
+      ))}
     </div>
   );
 }
