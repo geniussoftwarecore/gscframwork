@@ -123,52 +123,61 @@ export const portfolioProjects: PortfolioProject[] = [
       }
     ],
     tech: ['React', 'Vue.js', 'Node.js', 'Express', 'PostgreSQL', 'MySQL', 'JWT', 'Bootstrap', 'Tailwind CSS', 'Docker'],
-    coverImage: '/attached_assets/1_1761269091844.jpg',
+    coverImage: '/attached_assets/1_1761269603885.jpg',
     gallery: [
       {
         id: '1',
-        url: '/attached_assets/1_1761269091844.jpg',
+        url: '/attached_assets/1_1761269603885.jpg',
         alt: 'Splash Screen - Peregrine App',
-        altAr: 'شاشة البداية - تطبيق بيرجرين',
+        altAr: 'شاشة البداية - تطبيق بيريجرين',
         type: 'image',
-        caption: 'App splash screen with security and protection',
-        captionAr: 'شاشة تحميل التطبيق مع الحماية والأمان'
+        caption: 'App splash screen showcasing the Peregrine logo with security and protection features',
+        captionAr: 'شاشة تحميل التطبيق تعرض شعار بيريجرين مع ميزات الحماية والأمان'
       },
       {
         id: '2',
-        url: '/attached_assets/2_1761269091845.jpg',
+        url: '/attached_assets/2_1761269603886.jpg',
         alt: 'Login Screen',
         altAr: 'شاشة تسجيل الدخول',
         type: 'image',
-        caption: 'Secure login with multiple authentication options',
-        captionAr: 'تسجيل دخول آمن مع خيارات مصادقة متعددة'
+        caption: 'Secure login interface with username and password fields, featuring multiple authentication options including client and employee accounts',
+        captionAr: 'واجهة تسجيل دخول آمنة مع حقول اسم المستخدم وكلمة المرور، تتضمن خيارات مصادقة متعددة للعملاء والموظفين'
       },
       {
         id: '3',
-        url: '/attached_assets/3 - Copy_1761269091846.jpg',
+        url: '/attached_assets/3 - Copy_1761269603887.jpg',
         alt: 'Main Dashboard',
-        altAr: 'الصفحة الرئيسية',
+        altAr: 'الشاشة الرئيسية',
         type: 'image',
-        caption: 'User dashboard with quick actions and complaint submission',
-        captionAr: 'لوحة المستخدم مع إجراءات سريعة وتقديم الشكاوى'
+        caption: 'User-friendly dashboard displaying quick action cards for submitting requests and complaints, with recent activity feed showing latest submissions',
+        captionAr: 'لوحة تحكم سهلة الاستخدام تعرض بطاقات الإجراءات السريعة لتقديم الطلبات والشكاوى، مع موجز النشاطات الأخيرة'
       },
       {
         id: '4',
-        url: '/attached_assets/5_1761269091847.jpg',
+        url: '/attached_assets/5_1761269603888.jpg',
         alt: 'Notifications Screen',
         altAr: 'شاشة الإشعارات',
         type: 'image',
-        caption: 'Real-time notifications with complaint status updates',
-        captionAr: 'إشعارات فورية مع تحديثات حالة الشكاوى'
+        caption: 'Real-time notifications center showing new service requests, complaints, and status updates with color-coded priority indicators',
+        captionAr: 'مركز الإشعارات الفورية يعرض طلبات الخدمة الجديدة والشكاوى وتحديثات الحالة مع مؤشرات الأولوية الملونة'
       },
       {
         id: '5',
-        url: '/attached_assets/11 - Copy_1761269091848.jpg',
+        url: '/attached_assets/6 - Copy_1761269603888.jpg',
+        alt: 'Customer Support Dashboard',
+        altAr: 'لوحة دعم العملاء',
+        type: 'image',
+        caption: 'Comprehensive customer support dashboard displaying active tickets, pending requests, and resolved issues with detailed status tracking',
+        captionAr: 'لوحة دعم العملاء الشاملة تعرض التذاكر النشطة والطلبات المعلقة والمشكلات المحلولة مع تتبع تفصيلي للحالة'
+      },
+      {
+        id: '6',
+        url: '/attached_assets/11 - Copy_1761269603889.jpg',
         alt: 'Request Details and Chat',
         altAr: 'تفاصيل الطلب والمحادثة',
         type: 'image',
-        caption: 'Detailed complaint view with chat interface',
-        captionAr: 'عرض تفصيلي للشكوى مع واجهة المحادثة'
+        caption: 'Detailed complaint view featuring real-time chat interface between users and support staff for efficient communication and issue resolution',
+        captionAr: 'عرض تفصيلي للشكوى يتضمن واجهة محادثة فورية بين المستخدمين وموظفي الدعم لتواصل فعال وحل المشكلات'
       }
     ],
     summaryEn: 'A comprehensive digital solution for managing complaints and feedback, serving government institutions, corporations, and service centers with modern, efficient complaint resolution workflows.',
