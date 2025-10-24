@@ -245,24 +245,12 @@ export default function EnhancedProjectDetailHero({ project }: EnhancedProjectDe
             </motion.div>
 
             {/* Project Image Gallery */}
-            {project.slug === 'complaints-system-peregrine' ? (
-              // iPhone Mockup Gallery for Complaints System
-              <motion.div
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.9 }}
-                className="mb-16"
-              >
-                <IPhoneGallery images={project.gallery || []} />
-              </motion.div>
-            ) : (
-              // Standard Gallery for Other Projects
-              <motion.div
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.9 }}
-                className="mb-16"
-              >
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.9 }}
+              className="mb-16"
+            >
                 <Card className="border-2 border-brand-sky-base bg-brand-bg shadow-2xl overflow-hidden">
                   <CardContent className="p-2">
                     <div className="relative h-96 lg:h-[500px] overflow-hidden rounded-lg bg-gradient-to-br from-brand-sky-light to-brand-sky-base cursor-pointer group"
@@ -299,8 +287,7 @@ export default function EnhancedProjectDetailHero({ project }: EnhancedProjectDe
                     </div>
                   </CardContent>
                 </Card>
-              </motion.div>
-            )}
+            </motion.div>
 
             {/* Quick Info Cards */}
             <motion.div
