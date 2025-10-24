@@ -123,61 +123,16 @@ export const portfolioProjects: PortfolioProject[] = [
       }
     ],
     tech: ['React', 'Vue.js', 'Node.js', 'Express', 'PostgreSQL', 'MySQL', 'JWT', 'Bootstrap', 'Tailwind CSS', 'Docker'],
-    coverImage: '/attached_assets/1_1761269603885.jpg',
+    coverImage: '/attached_assets/ChatGPT Image 24 أكتوبر 2025، 05_01_44 ص_1761271325910.png',
     gallery: [
       {
         id: '1',
-        url: '/attached_assets/1_1761269603885.jpg',
-        alt: 'Splash Screen - Peregrine App',
-        altAr: 'شاشة البداية - تطبيق بيريجرين',
+        url: '/attached_assets/ChatGPT Image 24 أكتوبر 2025، 05_01_44 ص_1761271325910.png',
+        alt: 'Peregrine Complaints System - Multi-Device Mockup',
+        altAr: 'نظام بيريجرين للشكاوى - عرض متعدد الأجهزة',
         type: 'image',
-        caption: 'App splash screen showcasing the Peregrine logo with security and protection features',
-        captionAr: 'شاشة تحميل التطبيق تعرض شعار بيريجرين مع ميزات الحماية والأمان'
-      },
-      {
-        id: '2',
-        url: '/attached_assets/2_1761269603886.jpg',
-        alt: 'Login Screen',
-        altAr: 'شاشة تسجيل الدخول',
-        type: 'image',
-        caption: 'Secure login interface with username and password fields, featuring multiple authentication options including client and employee accounts',
-        captionAr: 'واجهة تسجيل دخول آمنة مع حقول اسم المستخدم وكلمة المرور، تتضمن خيارات مصادقة متعددة للعملاء والموظفين'
-      },
-      {
-        id: '3',
-        url: '/attached_assets/3 - Copy_1761269603887.jpg',
-        alt: 'Main Dashboard',
-        altAr: 'الشاشة الرئيسية',
-        type: 'image',
-        caption: 'User-friendly dashboard displaying quick action cards for submitting requests and complaints, with recent activity feed showing latest submissions',
-        captionAr: 'لوحة تحكم سهلة الاستخدام تعرض بطاقات الإجراءات السريعة لتقديم الطلبات والشكاوى، مع موجز النشاطات الأخيرة'
-      },
-      {
-        id: '4',
-        url: '/attached_assets/5_1761269603888.jpg',
-        alt: 'Notifications Screen',
-        altAr: 'شاشة الإشعارات',
-        type: 'image',
-        caption: 'Real-time notifications center showing new service requests, complaints, and status updates with color-coded priority indicators',
-        captionAr: 'مركز الإشعارات الفورية يعرض طلبات الخدمة الجديدة والشكاوى وتحديثات الحالة مع مؤشرات الأولوية الملونة'
-      },
-      {
-        id: '5',
-        url: '/attached_assets/6 - Copy_1761269603888.jpg',
-        alt: 'Customer Support Dashboard',
-        altAr: 'لوحة دعم العملاء',
-        type: 'image',
-        caption: 'Comprehensive customer support dashboard displaying active tickets, pending requests, and resolved issues with detailed status tracking',
-        captionAr: 'لوحة دعم العملاء الشاملة تعرض التذاكر النشطة والطلبات المعلقة والمشكلات المحلولة مع تتبع تفصيلي للحالة'
-      },
-      {
-        id: '6',
-        url: '/attached_assets/11 - Copy_1761269603889.jpg',
-        alt: 'Request Details and Chat',
-        altAr: 'تفاصيل الطلب والمحادثة',
-        type: 'image',
-        caption: 'Detailed complaint view featuring real-time chat interface between users and support staff for efficient communication and issue resolution',
-        captionAr: 'عرض تفصيلي للشكوى يتضمن واجهة محادثة فورية بين المستخدمين وموظفي الدعم لتواصل فعال وحل المشكلات'
+        caption: 'Professional mockup showcasing the Peregrine complaints and customer service management system across multiple devices - mobile, tablet, laptop, and desktop displays',
+        captionAr: 'موكاب احترافي يعرض نظام بيريجرين لإدارة الشكاوى وخدمة العملاء على أجهزة متعددة - الهاتف المحمول والتابلت واللابتوب والشاشة المكتبية'
       }
     ],
     summaryEn: 'A comprehensive digital solution for managing complaints and feedback, serving government institutions, corporations, and service centers with modern, efficient complaint resolution workflows.',
